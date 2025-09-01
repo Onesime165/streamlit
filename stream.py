@@ -14,7 +14,7 @@ import matplotlib.font_manager as fm
 # Configuration de la page Streamlit
 # =================================================================================================
 st.set_page_config(
-    page_title="VisionX | Analyse Visuelle de Données",
+    page_title="Onesime Vision X | Analyse Visuelle de Données",
     page_icon="💡",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -452,3 +452,4 @@ if 'df' in locals() and df is not None:
 
 else:
     st.info("Veuillez charger un fichier ou utiliser les données d'exemple pour commencer.")
+
